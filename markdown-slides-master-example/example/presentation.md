@@ -62,7 +62,7 @@ Notice the background color change.
 
 Use background videos, background pictures and **text formatting**,
 everything *without breaking* your markdown files.
-
+ 
 [comment]: # (Other background options: https://revealjs.com/backgrounds/)
 [comment]: # (!!! data-background-video="media/video.mp4", data-background-video-loop data-background-video-muted data-background-opacity="0.2")
 
@@ -159,9 +159,9 @@ Press down on your keyboard or swipe down.
 
 (thanks [@porvik!](https://gitlab.com/da_doomer/markdown-slides/-/issues/8))
 
+As many vertical slides as you like.
 [comment]: # (|||)
 
-As many vertical slides as you like.
 
 [comment]: # (!!!)
 
