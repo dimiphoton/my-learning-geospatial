@@ -1,0 +1,256 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<title>The Copernicus program : an open data initiative</title>
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+<link rel="stylesheet" href="dist/theme/white.css" id="theme">
+		<!-- Theme used for syntax highlighted code -->
+<link rel="stylesheet" href="plugin/highlight/zenburn.min.css" id="highlight-theme"></head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+<section data-markdown  ><textarea data-template>
+[comment]: # (This presentation was made with markdown-slides)
+[comment]: # (This is a CommonMark compliant comment. It will not be included in the presentation.)
+[comment]: # (Compile this presentation with the command below)
+[comment]: # (mdslides presentation.md --include media)
+
+[comment]: # (Set the theme:)
+[comment]: # (The list of themes is at https://revealjs.com/themes/)
+[comment]: # (The list of code themes is at https://highlightjs.org/)
+
+[comment]: # "You can also use quotes instead of parenthesis"
+[comment]: # 'Single quotes work too'
+
+[comment]: # (Pass optional settings to reveal.js:)
+[comment]: # (markdown: { smartypants: true })
+[comment]: # (Other settings are documented at https://revealjs.com/config/)
+
+
+
+<div id="counter"></div>
+
+
+### The Copernicus program : an open data initiative
+
+<small> Dimitri MARCHAND | junior ML engineer | BeCode Liege | March 16th 2023  </small>
+
+
+[comment]: # (A comment starting with three or more !!! marks a slide break.)
+</textarea></section>
+<section data-markdown  ><textarea data-template>
+
+
+![image](media/homepage.gif)
+
+###### note the url! https://www.copernicus.eu
+
+</textarea></section>
+<section data-markdown  ><textarea data-template>
+
+<img src="media/chrono_Copernicus.jpg" alt="An image" width="1300" height="600">
+
+</textarea></section>
+<section data-markdown  ><textarea data-template>
+
+<img src="media/services.png" alt="An image" width="1800" height="600">
+
+</textarea></section>
+<section data-markdown  data-auto-animate><textarea data-template>
+
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/MGJss4lDaBo?start=66&end=120" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+
+
+</textarea></section>
+<section data-markdown  ><textarea data-template>
+
+### philosophy of copernicus data
+
+- quality earth observation
+- open data policy
+- community building
+
+Note: This is a speaker note that only the presenter can see.
+
+
+</textarea></section>
+<section>
+<section data-markdown  ><textarea data-template>
+
+##### SENTINEL 2
+###### multispectral camera for segmentation
+
+<img src="media/bands.jpeg" alt="An image" width="1000" height="300">
+
+</textarea></section>
+<section data-markdown  ><textarea data-template>
+
+
+#### Natural Color (B4, B3, B2)
+
+![Sentinel 2 Natural Color](https://gisgeography.com/wp-content/uploads/2019/11/Sentinel-2-Natural-Color-678x339.jpg)
+
+<small> The natural color band combination uses the red (B4), green (B3), and blue (B2) channels. </small>
+
+</textarea></section>
+<section data-markdown  ><textarea data-template>
+#### Color Infrared (B8, B4, B3)
+
+![Sentinel 2 Color Infrared](https://gisgeography.com/wp-content/uploads/2019/11/Sentinel-2-Color-Infrared-678x339.jpg)
+
+<small> In a color infrared image, denser vegetation is red. Urban areas are white. </small>
+
+</textarea></section>
+<section data-markdown  ><textarea data-template>
+#### Short-Wave Infrared (B12, B8A, B4)
+
+![Sentinel 2 Shortwave Infrared](https://gisgeography.com/wp-content/uploads/2019/11/Sentinel-2-Shortwave-Infrared-678x339.jpg)
+
+<small> In general, darker shades of green indicate denser vegetation. But brown is indicative of bare soil and built-up areas. </small>
+
+</textarea></section>
+<section data-markdown  ><textarea data-template>
+#### Agriculture (B11, B8, B2)
+
+![Sentinel 2 Agriculture](https://gisgeography.com/wp-content/uploads/2019/11/Sentinel-2-Agriculture-678x339.jpg)
+
+<small> The agriculture band combination uses SWIR-1 (B11), near-infrared (B8), and blue (B2). Dense vegetation that appears as dark green. </small>
+
+</textarea></section>
+<section data-markdown  ><textarea data-template>
+#### Geology (B12, B11, B2)
+
+![Sentinel 2 Geology](https://gisgeography.com/wp-content/uploads/2019/11/Sentinel-2-Geology-678x339.jpg)
+
+<small> The geology band combination is a neat application for finding geological features. </small>
+
+</textarea></section>
+<section data-markdown  ><textarea data-template>
+#### Bathymetric (B4, B3, B1)
+
+![Sentinel 2 Bathymetric](https://gisgeography.com/wp-content/uploads/2019/11/Sentinel-2-Bathymetric-678x339.jpg)
+
+<small> Using the coastal aerosol band is good for estimating suspended sediment in the water. </small>
+
+</textarea></section>
+<section data-markdown  ><textarea data-template>
+#### Vegetation Index (B8-B4)/(B8+B4)
+
+![Sentinel 2 Moisture Index](https://gisgeography.com/wp-content/uploads/2019/11/Sentinel-2-Moisture-Index-678x339.jpg)
+
+<small> The moisture index is ideal for finding water stress in plants </small>
+
+
+
+</textarea></section>
+</section>
+<section data-markdown  ><textarea data-template>
+
+###### SENTINEL 3: radar waves for terrain deformation 
+
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/SLMWzQQv90s?start=184&end=209"" title="A technique to track Earth’s subtle movements with orbiting radars is heating up" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+</textarea></section>
+<section>
+<section data-markdown  ><textarea data-template>
+#### data exloration and ML: wekeo.eu
+
+<img src="media/wekeo.png" alt="An image" width="1800" height="600">
+
+</textarea></section>
+<section data-markdown  ><textarea data-template>
+
+#### data exploration tutorials
+
+<img src="media/wekeo_notebooks.gif" alt="An image" width="1800" height="600">
+
+</textarea></section>
+<section data-markdown  data-background-color="aquamarine"><textarea data-template>
+#### best start: futurelearn.com mooc
+
+<img src="media/futurelearn.png" alt="An image" width="1800" height="600">
+
+### 
+
+</textarea></section>
+<section data-markdown  ><textarea data-template>
+#### available projects
+
+- land cover classification
+- ships tracking
+- marine chlorophyll detection
+- methane emission retrieval
+- flood extent segmentation
+
+
+</textarea></section>
+</section>
+<section data-markdown ><textarea data-template>
+#### thank you for your attention
+
+My profile:
+<a href="https://www.linkedin.com/in/dimitri-marchand-978b0721/">
+  <img src="media/LinkedIn-logo.jpg" alt="LinkedIn" width="50" height="50">
+  Dimitri Marchand
+</a>
+
+
+<a href="https://www.linkedin.com/in/benjamin-beaumont-42499141/">
+  <img src="media/LinkedIn-logo.jpg" alt="LinkedIn" width="50" height="50">
+  Benjamin Beaumont, ISSEP
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</textarea></section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/math/math.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+Reveal.initialize({
+controls : false,
+markdown : {smartypants: true},
+controls : true,
+keyboard : true,
+hash : false,
+respondToHashChanges : false,
+				hash: true,
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ]
+			});
+		</script>
+	</body>
+</html>
