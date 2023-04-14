@@ -1,16 +1,30 @@
-# My Simple Presentation
+---
+marp: true
+transition: clockwise
+author: Dimitri MARCHAND
+footer: deep learning
+header: header
+paginate: true
+url: coincoin.fr
+math: katex
+title: Deep learning for flood prediction
+theme: uncover
+titlepage: true
+---
+
+# Presented by John Doe
 
 ---
 
-## Slide 1
+## Slide 2A
 
-This is the first slide of my presentation.
+This is the first slide in the second group of slides.
 
 ---
 
-## Slide 2
+## Slide 2B
 
-This is the second slide of my presentation.
+This is the second slide in the second group of slides.
 
 ---
 
@@ -18,9 +32,16 @@ This is the second slide of my presentation.
 
 This is the third slide of my presentation.
 
----
 
-## Slide 4
+---
+> quote
+
+second
+`
+return a
+`
+
+| Slide 4
 
 This is the fourth slide of my presentation.
 
