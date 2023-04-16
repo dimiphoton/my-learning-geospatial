@@ -1,28 +1,32 @@
 ---
 marp: true
-transition: clockwise
+transition: slide
 author: Dimitri MARCHAND
 footer: deep learning
 header: header
 paginate: true
-url: coincoin.fr
 math: katex
 title: Deep learning for flood prediction
 theme: uncover
 titlepage: true
 ---
 
-# Presented by John Doe
+# IA for flood prediction: a review
+
+## Dimitri MARCHAND
+#### junior ML engineer
+#### pro.dimitrimarchand@gmail.com
+---
+
+
+## the sources:
+1. article
+2. repo
+3. repo 2
 
 ---
 
-## Slide 2A
-
-This is the first slide in the second group of slides.
-
----
-
-## Slide 2B
+## the article
 
 This is the second slide in the second group of slides.
 
